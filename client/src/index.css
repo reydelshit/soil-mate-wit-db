@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    width: 100vw;
+    min-height: 100vh;
+    background-color:  #41644a;
+  
+    border: 1px solid #e2e8f0;
+  
+    overflow-x: hidden;
+  
+  }
+
+::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+::-webkit-scrollbar-track {
+    background: white;        /* color of the tracking area */
+  }
+  
+::-webkit-scrollbar-thumb {
+    background-color: green;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid green;  /* creates padding around scroll thumb */
+  }
+  
+  
